@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Motion_Frag">
+
+    <!-- ImageView with the background image -->
+    <ImageView
+        android:id="@+id/toolbar_image"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        app:srcCompat="@drawable/toopbar" />
+
+    <ImageView
+        android:id="@+id/Back_Button_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_menu"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <!-- ImageView with the white image -->
+    <ImageView
+        android:id="@+id/white_image"
+        android:layout_width="match_parent"
+        android:layout_height="732dp"
+        android:layout_marginTop="114dp"
+        app:srcCompat="@drawable/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motion Detection"
+        android:textColor="#7077E0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="71dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yellow_box_charger_mode"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="144dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/handmotion"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="184dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your device will sound an alarm \n\t\t\t\t\t\ton charger plug out "
+        android:textColor="#FFFCF6"
+        android:textSize="20sp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="244dp"/>
+
+    <ImageView
+        android:id="@+id/activate_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_charger_mode"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="317dp"/>
+
+    <TextView
+        android:id="@+id/activate_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate"
+        android:textColor="#FFFCF6"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="345dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm Options"
+        android:textColor="#7077E0"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginTop="403dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blue_box_charger_mode"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="431dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="459dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+        android:textColor="#FFFCF6"
+        android:textSize="12sp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="461dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vibration"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="505dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibration"
+        android:textColor="#FFFCF6"
+        android:textSize="12sp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="507dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flash_light"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="551dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flashlight"
+        android:textColor="#FFFCF6"
+        android:textSize="12sp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="553dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="536dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/sound_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/off_switch"
+        android:track="@drawable/on_switch"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="459dp"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/vibration_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/off_switch"
+        android:track="@drawable/on_switch"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="505dp"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/flashlight_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/off_switch"
+        android:track="@drawable/on_switch"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Options"
+        android:textColor="#7077E0"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/select_sound_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red_box_charger_mode"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="638dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="663dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_sound"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="663dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Sound"
+        android:textColor="#FFFCF6"
+        android:textSize="12sp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="663dp"/>
+
+</RelativeLayout>

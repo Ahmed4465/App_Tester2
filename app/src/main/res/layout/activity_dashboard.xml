@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <!-- ImageView with the background image -->
+    <ImageView
+        android:id="@+id/toolbar_image"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        app:srcCompat="@drawable/toopbar" />
+
+
+
+    <!-- ImageView with the white image -->
+    <ImageView
+        android:id="@+id/white_image"
+        android:layout_width="660dp"
+        android:layout_height="770dp"
+        android:layout_marginTop="114dp"
+        app:srcCompat="@drawable/white" />
+
+    <FrameLayout
+        android:id="@+id/dashboard_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

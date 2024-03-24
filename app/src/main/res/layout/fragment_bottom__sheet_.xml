@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Bottom_Sheet_Frag">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound_white_box"
+        android:layout_marginTop="0dp"/>
+
+
+    <ImageView
+        android:id="@+id/sound_play_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound_play_icon"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="115dp"/>
+
+    <TextView
+        android:text="Sound name"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="114dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="110dp"
+        android:buttonTint="@color/blue"/>
+
+    <ImageView
+        android:id="@+id/sound_play_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound_play_icon"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="158dp"/>
+
+    <TextView
+        android:text="Sound name"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="157dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="153dp"
+        android:buttonTint="@color/blue"/>
+
+    <ImageView
+        android:id="@+id/sound_play_image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound_play_icon"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="201dp"/>
+
+    <TextView
+        android:text="Sound name"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="200dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="196dp"
+        android:buttonTint="@color/blue"/>
+
+    <ImageView
+        android:id="@+id/sound_play_image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound_play_icon"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="244dp"/>
+
+    <TextView
+        android:text="Sound name"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="243dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="239dp"
+        android:buttonTint="@color/blue"/>
+
+    <ImageView
+        android:id="@+id/sound_play_image5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sound_play_icon"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="287dp"/>
+
+    <TextView
+        android:text="Sound name"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="286dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="282dp"
+        android:buttonTint="@color/blue"/>
+
+
+
+</FrameLayout>

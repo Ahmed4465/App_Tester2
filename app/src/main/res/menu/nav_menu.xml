@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_shareApp"
+        android:title="Share app"
+        />
+
+
+    <item android:id="@+id/nav_rateUs"
+        android:title="Rate us"/>
+
+
+    <item android:id="@+id/nav_privacyPolicy"
+        android:title="Privacy policy"/>
+
+
+    <item android:id="@+id/nav_passwordSettings"
+        android:title="Password Setting"
+        android:iconTint="@color/blue"
+        />
+
+</menu>

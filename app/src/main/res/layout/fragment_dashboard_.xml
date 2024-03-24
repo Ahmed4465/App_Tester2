@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Dashboard_Fragment">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragments.Dashboard_Fragment">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- TextView with the text -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anti Theft"
+                android:textColor="#7077E0"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="71dp"
+                android:layout_marginLeft="15dp"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/redboxdash"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="304dp"/>
+
+            <ImageView
+                android:id="@+id/battery_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/battery"
+                android:layout_marginLeft="254dp"
+                android:layout_marginTop="355dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Battery Full Mode"
+                android:textColor="#FFFCF6"
+                android:layout_marginLeft="216dp"
+                android:layout_marginTop="409dp"/>
+
+            <ImageView
+                android:id="@+id/chargerMode_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yellowboxdash"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="144dp"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/charger"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="197dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charger Mode"
+                android:textColor="#FFFCF6"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="249dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/brownboxdash"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="304dp"/>
+
+            <ImageView
+                android:id="@+id/hand_motion_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/handmotion"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="355dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motion detection"
+                android:textColor="#FFFCF6"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="409dp"/>
+
+            <ImageView
+                android:id="@+id/pocket_mode_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blueboxdash"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="144dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pocket"
+                android:layout_marginLeft="255dp"
+                android:layout_marginTop="197dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pocket Mode"
+                android:textColor="#FFFCF6"
+                android:layout_marginLeft="234dp"
+                android:layout_marginTop="249dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:minHeight="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextColor="@android:color/white"
+                app:title=" ">
+
+                <ImageView
+                    android:id="@+id/drawer_icon_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/drawer_icon"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentTop="true"/>
+
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:clipToPadding="false"
+            app:menu="@menu/nav_menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+</RelativeLayout>
