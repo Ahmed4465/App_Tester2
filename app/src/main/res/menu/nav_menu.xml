@@ -4,21 +4,20 @@
 
     <item
         android:id="@+id/nav_shareApp"
-        android:title="Share app"
+        android:title="@string/nav_shareApp"
         />
 
 
     <item android:id="@+id/nav_rateUs"
-        android:title="Rate us"/>
+        android:title="@string/nav_rateUs"/>
 
 
     <item android:id="@+id/nav_privacyPolicy"
-        android:title="Privacy policy"/>
+        android:title="@string/nav_privacyPolicy"/>
 
 
     <item android:id="@+id/nav_passwordSettings"
-        android:title="Password Setting"
-        android:iconTint="@color/blue"
+        android:title="@string/nav_passwordSettings"
         />
 
 </menu>

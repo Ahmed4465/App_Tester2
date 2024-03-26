@@ -101,7 +101,7 @@ class Dashboard_Fragment : Fragment(R.layout.fragment_dashboard_) {
                     showSetPasswordPopup()
                     return@setNavigationItemSelectedListener true
                 }
-                // Handle other menu items...
+
             }
             return@setNavigationItemSelectedListener false
         }

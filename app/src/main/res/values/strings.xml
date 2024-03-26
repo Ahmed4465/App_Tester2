@@ -6,4 +6,10 @@
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
 
+    <string name="nav_shareApp"><big><b><font face="serif" color="#7077E0">Share App</font></b></big></string>
+    <string name="nav_rateUs"><big><b><font face="serif" color="#7077E0">Rate Us</font></b></big></string>
+    <string name="nav_privacyPolicy"><big><b><font face="serif" color="#7077E0">Privacy Policy</font></b></big></string>
+    <string name="nav_passwordSettings"><big><b><font face="serif" color="#7077E0">Password Settings</font></b></big></string>
+
+
 </resources>

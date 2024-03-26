@@ -7,14 +7,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.Dashboard_Fragment">
+    tools:context=".Fragments.Dashboard_Fragment"
+    android:paddingVertical="20dp">
 
 
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Fragments.Dashboard_Fragment">
+        tools:context=".Fragments.Dashboard_Fragment"
+        >
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
